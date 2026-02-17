@@ -12,14 +12,16 @@ class Notes {
 			System.out.println("Hello");
 			System.out.println(num);
 			num = num + 1; //makes it eventually false
-		}
+		} //go back to the condition
+
 		//for loops
 
 		//for (intializiation step; condition; increment step)
+		// intializiation step happens once before the loop
 		for (int i = 0; i < 10; i++) { //runs 10 times
 			System.out.println("Hello");
 			System.out.println(i);
-		}
+		} //increment step happens here
 
 		//for loops are used when you know how many times you want to run a loop ahead of time
 		//while  loops are usually used when you have no idea how many times a loop will run.
